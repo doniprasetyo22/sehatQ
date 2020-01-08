@@ -55,6 +55,7 @@
   $('#search').on('click', function () {
 
       $('.row').attr("style","display: none;");
+      $('.contentx').attr("style","display: none;");
       $('#sidenav-main').attr("class", "navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white");
       $('#icons').attr("class","ni ni-bold-left");
       $('#icons').attr("style","");
@@ -66,6 +67,7 @@
   $('#icons').on('click', function () {
 
       $('.row').attr("style","display: block;");
+      $('.contentx').attr("style","display: block;");
       $('#sidenav-main').attr("class", "navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-iolo-blue");
       $('#icons').attr("class","ni ni-favourite-28");
       $('#icons').attr("style","color: white;");

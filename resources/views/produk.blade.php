@@ -4,7 +4,9 @@
 <div class="container-fluid pb-4 pt-4 pt-md-8">
       <!-- Card stats -->
     @include('search')
+  <div class="contentx">
   <a href="/"><button type="button" class='btn btn-sm btn-success'>Kembali</button></a><br><br>
+  </div>
   <input type="hidden" value="{{ $id }}" id="id_prod">
   <div class="row" id="contentprods">
     <div class="col-12">

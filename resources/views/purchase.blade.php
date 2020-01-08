@@ -4,8 +4,10 @@
 <div class="container-fluid pb-4 pt-4 pt-md-8">
       <!-- Card stats -->
     @include('search')
-  <a href="/"><button type="button" class='btn btn-sm btn-success'>Kembali</button></a><br>
-  <div class="ct-page-title">
+  <div class="contentx">
+    <a href="/"><button type="button" class='btn btn-sm btn-success'>Kembali</button></a><br>
+  </div>
+  <div class="ct-page-title contentx">
     <h1 class="ct-title" id="content">Purchase History</h1>
   </div>
   <div class="row" id="contentpurchase">
