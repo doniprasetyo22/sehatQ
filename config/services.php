@@ -36,21 +36,15 @@ return [
 
     /* Social Media */
     'facebook' => [
-        'client_id'     => env('FB_ID'),
-        'client_secret' => env('FB_SECRET'),
-        'redirect'      => env('FB_URL'),
-    ],
-
-    'twitter' => [
-        'client_id'     => env('TWITTER_ID'),
-        'client_secret' => env('TWITTER_SECRET'),
-        'redirect'      => env('TWITTER_URL'),
+        'client_id'     => '561997857984151',
+        'client_secret' => '126d2b9eda95bde1e5feaef165d5a15d',
+        'redirect'      => 'https://localhost:8000/auth/facebook/callback',
     ],
 
     'google' => [
-        'client_id'     => env('GOOGLE_ID'),
-        'client_secret' => env('GOOGLE_SECRET'),
-        'redirect'      => env('GOOGLE_URL'),
+        'client_id'     => '248457475558-84tbnvmh4e8f2mo508o95o8ggdqsclro.apps.googleusercontent.com',
+        'client_secret' => 'ik7SD9dwgPskoQ9KvGjDyHYE',
+        'redirect'      => 'http://localhost:8000/auth/google/callback',
     ],
 
 ];
